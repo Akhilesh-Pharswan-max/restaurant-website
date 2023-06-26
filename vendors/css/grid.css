@@ -1,0 +1,37 @@
+  .row2{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr); /* Creates four equal-width columns */
+	grid-gap: 20px; /* Adjust the value as needed for the desired gap between columns */
+	padding: 20px; 
+	
+}
+  
+  
+  .meal-showcase{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr); /* Creates four equal-width columns */
+	
+	
+  }
+  .meal-photo {
+    width: 100%;
+  }
+    .span_2_of_2 {
+      width: 100%;
+    }
+    
+    .span_1_of_2 {
+      width: 49.2%;
+    }
+    
+    /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+    
+    @media only screen and (max-width: 480px) {
+      .span_2_of_2 {
+        width: 100%; 
+      }
+      .span_1_of_2 {
+        width: 100%; 
+      }
+    }
+   
